@@ -1,0 +1,66 @@
+@font-face {
+  font-family: Zootopia;
+  src: url("../font/Zootopia JPosters.com.ar.otf");
+}
+ /*DIVs*/ 
+body {
+    text-align: center;
+    background-image: url("../images/background2.jpg") ;
+    background-size: cover;
+    }
+  
+h1 {
+    padding-top: 2.5%;
+    font-size: 100px;
+    font-weight: bold;
+    color: green;
+    text-shadow:
+   -1px -1px 0 lightgreen,  
+    1px -1px 0 lightgreen,
+    -1px 1px 0 lightgreen,
+     1px 1px 0 lightgreen;
+    font-family: Zootopia,Arial, Helvetica, sans-serif;
+  }
+
+button  {
+  
+    width: 40%;
+    height: 40px;
+    margin:  0 15%;
+    background-color: lightgreen;
+    margin-bottom: 15px
+}
+ 
+h2 {
+  margin-bottom: 25px;
+  font-size: 35px;
+  color: white;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+h3 {
+  margin-bottom: 10px;
+  font-size: 25px;
+  color: white;
+  text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+  /*IDs*/ 
+  #sub-wrapper {
+    position: relative;
+    top: 15%;
+    
+  }
+  #start {
+    margin-top: 10%;
+    background: lightgreen;
+    border: 2px solid green;
+  }
